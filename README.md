@@ -27,6 +27,6 @@ HTML was used to create the website, CSS- bootstrap CSS and custom CSS to style 
 In case of anything feel free to contact me via email - odingoannette@gmail.com or using the information provided on the website's footer.
 ### License
 *MIT*
-Copyright (c) {year} *Annette Odingo**
+Copyright (c) {year} *Annette Odingo*
   
   
