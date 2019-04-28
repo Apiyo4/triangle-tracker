@@ -6,46 +6,73 @@
   <title>Triangle tracker</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/scripts.js">
+  </script>
 </head>
 
 <body>
   <div class="container">
-    <nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1 id="home">Triangles are Awesome, So are YOU!</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="row">
-        <div class="col-sm-10">
-          <header>
-            <div class="jumbotron">
-              <p> <em>Welcome to Triangles are Awesome, So are You!</em></p>
-              <p class="lead"> Continue scrolling to read some pretty cool stuff about triangles or <a href="#my-form">click here</a> to go to the triangle tracker</p>
-              <p>Do you think that you're an expert in triangles, if yes how many triangles are in the image below</p>
-              <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKgakGbMbmCE4tBlfAF98pI0cLDb2z5SPd_la2b1VgPAjMMCm" alt="triangles">
-            </div>
-          </header>
-        </div>
-        <div class="col-sm-2">
-          <h3>Famous quote</h3>
-          <blockquote class="blockquote text-center">
-            <p>It is indeed wonderful that so simple a figure as the triangle is so inexhaustible in properties. How many as yet unknown properties of other figures may there not be?</p>
-            <footer class="blockquote-footer">Crelle in <cite title="Source Title">Wells</cite></footer>
-          </blockquote>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <h1 id="home">Triangles are Awesome, So are YOU!</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-sm-10">
+        <header>
+          <div class="jumbotron">
+            <p> <em>Welcome to Triangles are Awesome, So are You!</em></p>
+            <p class="lead"> Continue scrolling to read some pretty cool stuff about triangles or <a href="#my-form">click here</a> to go to the triangle tracker</p>
+            <p>So you think that you're an expert in triangles, how many triangles are in the image below?</p>
+            <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKgakGbMbmCE4tBlfAF98pI0cLDb2z5SPd_la2b1VgPAjMMCm" alt="triangles">
+          </div>
+        </header>
       </div>
-      <p>
-        Enter first value <input type="text" id="a" value="" size="6">
-        Enter second value <input type="text" id="b" value="" size="6">
-        Enter third value <input type="text" id="c" value="" size="6">
-        <button type="button" name="button" onclick="triangleTracker()">Submit</button>
-      </p>
-      <p id="output"></p>
-      <script type="text/javascript" src="js/scripts.js">
-      </script>
+      <div class="col-sm-2">
+        <h3>Famous quote</h3>
+        <blockquote class="blockquote text-center">
+          <p>It is indeed wonderful that so simple a figure as the triangle is so inexhaustible in properties. How many as yet unknown properties of other figures may there not be?</p>
+          <footer class="blockquote-footer">Crelle in <cite title="Source Title">Wells</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+    <div>
+      <div class="content">
+        <h2>Triangles</h2>
+        <p class="lead text-center">A triangle is a 3-sided polygon sometimes called the trigon. Every triangle has three sides and three angles, some of which may be the same.</p>
+        <p class="text-center">The common types of triangles are equilateral, isosceles and scalene.</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Equilateral triangle</h3>
+            <p>The equilateral triangle is a triangle with all sides equal and all angles equal</p>
+            <img class="img-fluid mx-auto" src="http://mammothmemory.net/images/user/base/Maths/Maths%20Basics/Vocabulary%20and%20Expressions/equilateral-triangle-with-sides-and-angles-labeled.1226e78.jpg" alt="equilateral triangle">
+          </div>
+          <div class="col-sm-4">
+            <h3>Isosceles triangle</h3>
+            <p> An isosceles triangle is a triangle with two sides equal and two angles equal</p>
+            <img class="img-fluid mx-auto" src="http://mammothmemory.net/images/user/base/Maths/Maths%20Basics/Vocabulary%20and%20Expressions/purple-isosceles-triangle-with-two-sides-the-same-length.6362145.jpg" alt="isosceles triangle">
+          </div>
+          <div class="col-sm-4">
+            <h3>Scalene triangle</h3>
+            <p>A scalene triangle is a triangle that all its three sides have different length and different angles.</p>
+            <img class="img-fluid mx-auto" src="http://mammothmemory.net/images/user/base/Maths/Maths%20Basics/Vocabulary%20and%20Expressions/green-scalene-triangle-with-sides-and-angles-all-different.55937ab.jpg" alt="scalene triangle">
+          </div>
+        </div>
+        <div class="space">
+
+        </div>
+        <div id="my-form">
+          <h2>Triangle tracker</h2>
+          <p>
+            Enter first value <input type="text" id="a" value="" size="6">
+            Enter second value <input type="text" id="b" value="" size="6">
+            Enter third value <input type="text" id="c" value="" size="6">
+            <button type="button" name="button" onclick="triangleTracker()">Submit</button>
+          </p>
+          <p id="output"></p>
+        </div>
   </div>
 </body>
 

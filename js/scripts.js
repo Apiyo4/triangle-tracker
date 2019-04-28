@@ -10,7 +10,7 @@ function triangleTracker() {
     } else if ((value1!== value2 && value1!== value3) && (value2!== value1 && value2 !== value3)) {
       output.textContent = "I'm a scalene triangle";
     } else if ((value1 === value2 && value1 !== value3) || or(value1 === value3 && value1 !== value2) || (value2 === value3 && value2 !== value3)) {
-      output.textContent = "I'm an isosceloes triangle";
+      output.textContent = "I'm an isosceles triangle";
     }
   } else {
     output.textContent = "I'm not a triangle";
