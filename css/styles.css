@@ -19,12 +19,11 @@ body, .jumbotron{
     background-color: #F8FFE5;
   }
 h2, h3{
-  text-align: center;
+ text-align: center;
 }
-.space{
+#my-form, #output{
   margin-top: 50px;
-  margin-bottom: 50px;
-  clear: both;
+  margin-left: 5px;
 }
 #my-form > h2{
   margin-bottom: 20px;
