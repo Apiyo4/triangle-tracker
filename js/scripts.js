@@ -1,4 +1,8 @@
 function triangleTracker() {
+  var value = [];
+  value.push(value1);
+  value.push(value2);
+  value.push(value3);
   var value1 = parseInt(document.getElementById("a").value);
   var value2 = parseInt(document.getElementById("b").value);
   var value3 = parseInt(document.getElementById("c").value);
