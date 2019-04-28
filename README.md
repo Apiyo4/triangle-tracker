@@ -25,4 +25,8 @@ As at this time there are no known bugs.
 HTML was used to create the website, CSS- bootstrap CSS and custom CSS to style and Javascript to make it interactive.
 ## Support and contact details
 In case of anything feel free to contact me via email - odingoannette@gmail.com or using the information provided on the website's footer.
+### License
+*MIT*
+Copyright (c) {year} *Annette Odingo**
+  
   
