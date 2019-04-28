@@ -8,8 +8,8 @@ nav > ul > li{
 }
 .img1{
   width: 40%;
-  height: 180px;
-  margin-left: 120px;
+  height: 240px;
+  margin-left: 160px;
   }
   a{
     font-size: 24px;
@@ -30,4 +30,7 @@ h2, h3{
 }
 footer > p{
   text-align: center;
+}
+.jumbotron .lead{
+  font-size: 32px;
 }
