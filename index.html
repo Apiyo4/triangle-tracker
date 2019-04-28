@@ -65,10 +65,11 @@
       </div>
         <h2 id="center">Triangle tracker</h2>
         <p id="my-form">
-          Enter first value <input type="text" id="a" value="">
-          Enter second value <input type="text" id="b" value="">
-          Enter third value <input type="text" id="c" value="">
+          Enter first value <input type="text" id="a" value="" size= "16">
+          Enter second value <input type="text" id="b" value="" size= "16">
+          Enter third value <input type="text" id="c" value="" size= "16">
           <button type="button" name="button" onclick="triangleTracker()">Submit</button>
+          <button type="button" name="button" onclick="document.getElementById('a').value = ''; document.getElementById('b').value = ''; document.getElementById('c').value = ''; document.getElementById('output').style.display='none' ">Reset</button>
         </p>
         <p id="output"></p>
     </div>
