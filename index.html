@@ -6,8 +6,8 @@
   <title>Triangle tracker</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script type="text/javascript" src="js/scripts.js">
-  </script>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMYtBJCSVTBgPxIgjtXlTURmtvvtuOSPQDDDYHQ0v1JbCD0-hSg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -59,21 +59,24 @@
             <p>A scalene triangle is a triangle that all its three sides have different length and different angles.</p>
             <img class="img-fluid mx-auto" src="http://mammothmemory.net/images/user/base/Maths/Maths%20Basics/Vocabulary%20and%20Expressions/green-scalene-triangle-with-sides-and-angles-all-different.55937ab.jpg" alt="scalene triangle">
           </div>
-        </div>
-        <div class="space">
 
+          <div class="space"></div>
+
+        <h2>Triangle tracker</h2>
+        <p id="my-form">
+          Enter first value <input type="text" id="a" value="" size="6">
+          Enter second value <input type="text" id="b" value="" size="6">
+          Enter third value <input type="text" id="c" value="" size="6">
+          <button type="button" name="button" onclick="triangleTracker()">Submit</button>
+        </p>
+        <p id="output"></p>
         </div>
-        <div id="my-form">
-          <h2>Triangle tracker</h2>
-          <p>
-            Enter first value <input type="text" id="a" value="" size="6">
-            Enter second value <input type="text" id="b" value="" size="6">
-            Enter third value <input type="text" id="c" value="" size="6">
-            <button type="button" name="button" onclick="triangleTracker()">Submit</button>
-          </p>
-          <p id="output"></p>
-        </div>
-  </div>
+        <footer>
+        <p id="contacts">Don't forget to say hi on <a href="https://web.facebook.com/annette.odingo"><i class="fab fa-facebook"></i></a> or follow us on <a href="https://twitter.com/apiyo_thomas"><i class="fab fa-twitter"></i></a></p>
+      </footer>
+        <script type="text/javascript" src="js/scripts.js">
+        </script>
+      </div>
 </body>
 
 </html>
