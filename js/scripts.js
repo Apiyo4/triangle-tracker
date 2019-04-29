@@ -20,3 +20,4 @@ function triangleTracker() {
     output.textContent = "I'm not a triangle";
   }
 }
+}
