@@ -1,36 +1,48 @@
-nav > ul{
+nav>ul {
   float: right;
 }
-nav > ul > li{
+
+nav>ul>li {
   display: inline;
   margin-left: 30px;
   font-size: 24px;
 }
-.img1{
+
+.img1 {
   width: 40%;
-  height: 240px;
+  height: 200px;
   margin-left: 160px;
-  }
-  a{
-    font-size: 24px;
-    text-transform: capitalize;
-  }
-body, .jumbotron{
-    background-color: #F8FFE5;
-  }
-h2, h3{
- text-align: center;
 }
-#my-form, #output{
+
+a {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+body, .jumbotron {
+  background-color: #F8FFE5;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+#my-form, #output {
   margin-top: 50px;
   margin-left: 5px;
 }
-#my-form > h2{
+
+#my-form>h2 {
   margin-bottom: 20px;
 }
-footer > p{
+
+footer>p {
   text-align: center;
 }
-.jumbotron .lead{
+
+.jumbotron .lead {
   font-size: 32px;
+}
+input{
+  border-radius:30px;
 }
